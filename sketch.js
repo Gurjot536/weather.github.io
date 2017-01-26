@@ -35,6 +35,7 @@ function draw() {
     textAlign(CENTER);
     textSize(25);
       text('Temperature: '+temp+'°C',120,35);
+      text(x,120,65);
   }
   if(temp > 30) {
     image(fire,width/2,200,200,200);
