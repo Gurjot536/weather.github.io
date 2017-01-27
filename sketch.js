@@ -32,9 +32,11 @@ function draw() {
   imageMode(CENTER);
   if (weather) {
     var temp = weather.main.temp;
+    var des = weather[0].main;
     textAlign(CENTER);
     textSize(25);
       text('Temperature: '+temp+'°C',120,35);
+      text('Description: '+des,120,65);
   }
   if(temp > 30) {
     image(fire,width/2,200,200,200);
