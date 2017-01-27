@@ -32,7 +32,7 @@ function draw() {
   imageMode(CENTER);
   if (weather) {
     var temp = weather.main.temp;
-    var des = weather[0].main;
+    var des = weather.main;
     textAlign(CENTER);
     textSize(25);
       text('Temperature: '+temp+'°C',120,35);
