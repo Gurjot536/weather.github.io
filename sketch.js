@@ -1,5 +1,5 @@
 var x;
-var web = 'http://api.openweathermap.org/data/2.5/weather?q=';
+var web = 'https://api.openweathermap.org/data/2.5/weather?q=';
 var apikey = '&appid=49ff3214f9e25759de77a7afe42469ca&units=metric';
 var url;
 var weather;
